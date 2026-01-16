@@ -9,8 +9,19 @@ This project demonstrates the requirement to set up a **Vue.js** application and
 * **Build Tool:** Vite
 * **Containerization:** Docker
 * **Package Manager:** npm
+* **Web Server:** Nginx
 
 ---
+
+## Architecture
+
+### Build Stage
+* Uses Node.js to install dependencies and build the Vue application.
+* Generates optimized static files (dist/).
+
+### Production Stage
+* Uses Nginx to serve the built static files.
+* Runs on port 80 inside the container.
 
 ##  Project Structure
 The repository follows a clean and minimal structure to support Docker-based deployment:
@@ -20,6 +31,8 @@ The repository follows a clean and minimal structure to support Docker-based dep
 ├── Dockerfile          # Instructions for building the Docker image
 ├── vite.config.js      # Vite build tool and dev server configuration
 └── package.json        # Project dependencies and scripts used by Docker
+└── README.md           # Project documentation
+
 ```
 ---
 ##  Local Installation & Setup
@@ -57,12 +70,12 @@ docker build -t vue-vite-app .
 ### 2. Run the Container
 Launch the container and map the internal Vite port (5173) to your local machine:
 ```bash
-docker run -p 5173:5173 vue-vite-app
+docker run -p 8080:80 vue-vite-app
 ```
 ---
 
 ### 3. Access the App
-open your browser to: http://localhost:5173
+open your browser to: http://localhost:8080
 
 ---
 
