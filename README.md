@@ -14,10 +14,12 @@ This project fulfills the requirement to set up a modern Vue.js application and 
 ##  Project Structure
 The repository is organized as follows to support the containerized workflow:
 
-* **`src/`**: Main Vue.js source code including components and logic.
-* **`Dockerfile`**: Contains the instructions for building the Docker image.
-* **`vite.config.js`**: Configuration for the Vite build tool and development server.
-* **`package.json`**: Defines project dependencies and the scripts used by Docker.
+```text
+├── src/                # Main Vue.js source code (components and logic)
+├── Dockerfile          # Instructions for building the Docker image
+├── vite.config.js      # Vite build tool and dev server configuration
+└── package.json        # Project dependencies and scripts used by Docker
+```
 ---
 ##  Local Installation & Setup
 To run the apllication locally using **npm** 
@@ -32,6 +34,8 @@ Start the Vite development server:
 ```bash
 npm run dev
 ```
+---
+
  ## Docker Setup
 This project includes a `Dockerfile` to automate the deployment process.
 
