@@ -68,7 +68,7 @@ docker build -t vue-vite-app .
 ---
 
 ### 2. Run the Container
-Launch the container and map the internal Vite port (5173) to your local machine:
+Launch the container and map the container’s Nginx port (80) to local machine:
 ```bash
 docker run -p 8080:80 vue-vite-app
 ```
