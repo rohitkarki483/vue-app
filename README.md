@@ -63,3 +63,9 @@ docker run -p 5173:5173 vue-vite-app
 
 ### 3. Access the App
 open your browser to: http://localhost:5173
+
+---
+
+## Conclusion
+
+This is a demonstration on how a Vue.js app can be containerized successfully with Docker. It ensures consistency, portability, and ease of deployment—core principles in DevOps workflows. It provides consistency, portability, and deployment ease, which are the fundamental principles in the DevOps process.
