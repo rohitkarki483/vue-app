@@ -33,6 +33,6 @@ Launch the container and map the internal Vite port (5173) to your local machine
 ```bash
 docker run -p 5173:5173 vue-vite-app
 ```
-### Access the App
+### 3. Access the App
 open your browser to: http://localhost:5173
 a
