@@ -19,7 +19,19 @@ The repository is organized as follows to support the containerized workflow:
 * **`vite.config.js`**: Configuration for the Vite build tool and development server.
 * **`package.json`**: Defines project dependencies and the scripts used by Docker.
 ---
+##  Local Installation & Setup
+To run the apllication locally using **npm** 
 
+### 1. Install Dependencies
+Open your terminal in the project root folder and run:
+```bash
+npm install
+```
+### 2.Run in Development Mode
+Start the Vite development server:
+```bash
+npm run dev
+```
  ## Docker Setup
 This project includes a `Dockerfile` to automate the deployment process.
 
@@ -35,4 +47,3 @@ docker run -p 5173:5173 vue-vite-app
 ```
 ### 3. Access the App
 open your browser to: http://localhost:5173
-a
