@@ -5,9 +5,9 @@ This project fulfills the requirement to set up a modern Vue.js application and 
 ---
 
 ## Tech Stack
- **Framework:** Vue 3 (Composition API )
- **Build Tool:** Vite
- **Containerization:** Docker
+* **Framework:** Vue 3 (Composition API )
+* **Build Tool:** Vite
+* **Containerization:** Docker
 
 ---
 
