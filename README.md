@@ -39,7 +39,7 @@ The repository follows a clean and minimal structure to support Docker-based dep
 ### 1. Clone the Repository 
 ```bash
 git clone https://github.com/rohitkarki483/vue-app
-cd vuew-app
+cd vue-app
 ```
 ### 2. Install Dependencies
 ```bash
